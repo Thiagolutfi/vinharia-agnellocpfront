@@ -16,3 +16,50 @@ body {
 .corpo {
     background-color: #4a172a;
 }
+
+body {
+font-family: Arial;
+margin: 0;
+background-color: #4a172a;
+}
+
+header {
+background-color:#39111f;
+color:#ffffff;
+padding: 15px;
+text-align: center;
+}
+
+nav {
+background-color:#ffffff;
+padding: 10px;
+text-align: center;
+}
+
+nav a {
+margin: 10px;
+text-decoration: none;
+color: #000000;
+font-weight: bold;
+}
+
+main {
+padding: 20px;
+}
+
+table {
+background-color: #39111f;
+border-collapse: collapse;
+margin: 0 auto;
+}
+
+th, td {
+padding: 10px;
+}
+
+footer {
+text-align: center;
+background-color: #39111f;
+color: #ffffff;
+padding: 10px;
+}
