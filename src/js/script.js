@@ -13,4 +13,4 @@ console.log("Cadastro do Vinho");
 console.log("-----------------------------");
 console.log("Nome:", nome);
 console.log("Tipo:", tipo);
-
+console.log("Quantidade em estoque:" , quantidade);
