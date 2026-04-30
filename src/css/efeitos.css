@@ -5,7 +5,7 @@
 //Ao passar o mouse o background muda de cor (pseudo-classe :hover e aumenta de tamanho com uma transição)
 .container-topicos {
     display: flex;
-    justify-content:center
+    justify-content: center;
 }
 
 .topicos {
@@ -31,79 +31,64 @@
     background-color: #5c1d36;
 }
 
-Requisitos que faltam dois pseudoclasses diferentes, dois pseudo-elementos, dois transformações scale, rotate e etc e transições simples e o README.md no final do projeto
-Lembrem de linkar o efeitos.css na pagina de vcs
+//pagina produtos.html
 
-
-pagina contato.html
-
-
-pagina equipe.html
-
-
-pagina historia.html
-
-
-pagina vinhos.html
-
-button:hover {
-background-color: red;
-color:red
-transform: scale(2)}
-
-p:first-letter {
-font-size: 2em;
-font-weight: bold;
-color: #8b0000;
+.letra {}
+.letra:first-letter {
+    font-size: 2em;
+    font-weight: bold;
+    color: #8b0000;
 }
 
 @keyframes fadeIn {
 from {
     opacity: 0;
-    transform: translateY(4px);
 }
 to {
     opacity: 1;
-    transform: translateY(0);
 }
 }
 
 .banner {
-animation: fadeIn 3s ease-in-out;
+    animation: fadeIn 3s ease-in-out;
 }
 
-a {
-color: black;
-transition: 0.3s;
+.paginas {
+    color: black;
+    transition: 0.3s;
 }
 
-a:hover {
-color: #8b0000;
+.paginas :hover {
+    color: #8b0000;
 }
 
-img:hover {
-transform: scale(1.5);
+.imgvinho:hover {
+    transform: scale(1.5);
 }
 
-.card:hover {
-transform: rotate(2deg);
+.card :hover {
+    transform: rotate(2deg);
 }
 
-
-nav ul li{
-color: black;
-text-decoration: none;
-transition: 0.3s;
+.card {
+    list-style: none;
 }
 
-nav ul li::selection {
-color: #8b0000;
-}
 
 ::selection{
-background-color: #4a172a;
-color: #8b0000;
+    background-color: #4a172a;
+    color: #8b0000;
 }
 
+//Requisitos que faltam dois pseudoclasses diferentes, dois pseudo-elementos, dois transformações scale, rotate e etc e transições simples e o README.md no final do projeto
+//Lembrem de linkar o efeitos.css na pagina de vcs
 
+
+//pagina contato.html
+
+
+//pagina equipe.html
+
+
+//pagina historia.html
 
