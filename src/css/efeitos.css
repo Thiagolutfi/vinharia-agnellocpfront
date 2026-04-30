@@ -43,6 +43,99 @@ pagina equipe.html
 
 pagina historia.html
 
+@keyframes descerNavbar {
+  from {
+    transform: translateY(-100%);
+    opacity: 0;
+  }
+  to {
+    transform: translateY(0);
+    opacity: 1;
+  }
+}
+
+nav {
+  background-color: #ddd;
+  padding: 10px;
+   animation: descerNavbar 1s ease-out;
+}
+
+nav ul {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+}
+
+nav ul li {
+  display: inline;
+}
+
+nav ul li a {
+  text-decoration: none;
+  color: black;
+  padding: 10px 20px;
+}
+
+nav ul li a:hover {
+  background-color: #800020;
+  color: white;
+  border-radius: 5px;
+}
+
+section {
+  padding: 20px;
+}
+
+p::first-letter {
+  font-size: 28px;
+  font-weight: bold;
+  color: #ffcccc;
+}
+::selection {
+  background-color: #ffcccc;
+  color: #5a0f1c;
+}
+
+img {
+  width: 60%;
+  max-width: 700px;
+  transition: 0.4s;
+}
+
+img:hover{
+    transform: scale(1.5);
+}
+
+input, textarea {
+  padding: 10px;
+  margin: 5px;
+  border: 1px solid #ccc;
+}
+
+
+input:focus, textarea:focus {
+  border-color: #800020;
+  outline: none;
+}
+
+input[type="checkbox"]:checked {
+  accent-color: #800020;
+}
+
+button {
+  padding: 10px 20px;
+  border: none;
+  background-color: #800020;
+  color: white;
+  cursor: pointer;
+}
+
+
+button:hover {
+  background-color: #a00028;
+}
+
+
 
 pagina vinhos.html
 

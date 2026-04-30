@@ -67,3 +67,16 @@ Foram implementados efeitos utilizando CSS nas:
 - Pseudo-elementos: before, after e first-letter usado nos títulos e nos parágrafos 
 - Animação com @keyframes (fadeIn) usado nas animações, transições e transformações
 - Transformações como scale e rotate usado nas imagens e em um tópico
+
+## 📖 Página: Nossa História
+Feito por Daniel
+
+Foram adcionados novos efeitos na página da nossa história em CSS, entre elas:
+.Pseudo-Elementos
+.Pseudo-Classes
+.Animações
+.Transformações CSS
+
+### 📁 Organização do Código
+ Os efeitos visuais foram separados no arquivo `efeitos.css`.
+ O arquivo foi importado no `style.css`.
