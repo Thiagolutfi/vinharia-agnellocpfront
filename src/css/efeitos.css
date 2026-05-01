@@ -148,17 +148,16 @@ to {
     transform: scale(0.95);
 }
 
-/* 🔥 PSEUDO-CLASSE 4 */
 .secao-contato p:nth-child(2) {
     color: #ccb1ba;
 }
 
-/* 🔥 PSEUDO-ELEMENTO 1 */
+
 .titulo-contato::before {
     content: "📩 ";
 }
 
-/* 🔥 PSEUDO-ELEMENTO 2 */
+
 .titulo-contato::after {
     content: " 🍷";
 }
