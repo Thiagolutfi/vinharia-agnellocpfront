@@ -86,6 +86,86 @@ to {
 
 //pagina contato.html
 
+//pagina contato.html
+
+.titulo-contato::first-letter {
+    color: gold;
+    font-size: 1.5em;
+    font-weight: bold;
+}
+
+.caixa-contato {
+    background-color: #39111f;
+    padding: 40px;
+    border-radius: 40px;
+    width: 40%;
+    margin: 40px auto;
+    display: block;
+}
+
+
+.menu-contato a {
+    display: inline-block;
+    transition: 0.3s;
+    padding: 5px 10px;
+    border-radius: 10px;
+}
+
+.menu-contato a:hover {
+    transform: scale(1.1);
+    background-color: #5a0f0f;
+}
+
+
+.menu-contato a:hover {
+    color: #ffffff;
+    border-radius: 10;
+}
+
+.img-contato {
+    transition: 0.3s;
+    border-radius: 10px;
+}
+
+.img-contato:hover {
+    transform: scale(1.1);
+    box-shadow: 0 0 20px rgba(0,0,0,0.5);
+}
+
+.campo:focus {
+    outline: 2px solid #8b0000;
+    background-color: #5c1d36;
+}
+
+
+.botao:hover {
+    transform: scale(1.1);
+    transition: 0.3s;
+}
+
+
+.botao:active {
+    transform: scale(0.95);
+}
+
+.secao-contato p:nth-child(2) {
+    color: #ccb1ba;
+}
+
+
+.titulo-contato::before {
+    content: "📩 ";
+}
+
+
+.titulo-contato::after {
+    content: " 🍷";
+}
+
+/* 🔥 PSEUDO-ELEMENTO EXTRA */
+.link-contato::after {
+    content: " 🔗";
+}
 
 //pagina equipe.html
 .time-01 nav a:hover {
