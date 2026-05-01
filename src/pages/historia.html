@@ -5,41 +5,64 @@
   <title>Vinharia Agnello</title>
   <link href="https://fonts.googleapis.com/css2?family=Playfair+Display&family=Open+Sans&display=swap" rel="stylesheet" />
   <link rel="stylesheet" href="../css/style.css" />
+  <link rel="stylesheet" href="../css/efeitos.css">
 </head>
+
 <body>
 
-  <header class="site-cabeçalho">
-    <h1 class="logo">Vinharia Agnello</h1>
-     <nav>
-        <a href="../../index.html">Página Inicial</a>
-        <a href="produtos.html">Vinhos</a>
-        <a href="contato.html">Contato</a>
-        <a href="equipe.html">Equipe</a>
-    </nav>
+<header>
+  Vinharia Agnello
+</header>
+
+<nav class="topico-historia">
+ 
+  <ul>
+    <li><a href="../../index.html">Página Inicial</a></li>
+    <li><a href="produtos.html">Vinhos</a></li>
+    <li><a href="contato.html">Contato</a></li>
+    <li><a href="equipe.html">Equipe</a></li>
+  </ul>
+</nav>
+
+<section class="historia">
+  <h2>Nossa História</h2>
+
+  <p>
+    A Vinharia Agnello nasceu da paixão por vinhos e da tradição familiar que atravessa gerações.
+  </p>
+
+  <p>
+    Fundada em 2012, a vinheria começou como um pequeno projeto artesanal.
+  </p>
+
+  <p class="destaque">
+    Ao longo dos anos, crescemos mantendo qualidade e autenticidade.
+  </p>
+
+  <h2>Nosso Produto</h2>
+
+  <img  src="../imgs/vinho.jpg" class="minha-imagem">
+
   
-  </header>
+  <form>
+    <h3>Contato</h3>
+    <input type="text" placeholder="Seu nome"><br>
+    <textarea placeholder="Oque achou da nossa história?"></textarea><br>
 
-  <main>
-    <section id="historia" class="vinharia-historia">
-      <h2>Nossa História</h2>
-      <p>
-        A Vinharia Agnello nasceu da paixão por vinhos e da tradição familiar que atravessa gerações. Inspirada pelas raízes italianas, a família Agnello trouxe consigo o amor pela vitivinicultura.
-      </p>
-      <p>
-        Fundada em 2012, a vinharia começou como um pequeno projeto artesanal, onde cada etapa da produção era feita com extremo cuidado e dedicação.
-      </p>
-      <p>
-        Ao longo dos anos, a Vinharia Agnello cresceu, mantendo sempre seu compromisso com a qualidade e autenticidade, proporcionando experiências únicas em cada garrafa.
-      </p>
-      <p>Desde então buscamos trazer a melhor experiência para os nossos clientes sentirem oque é um vinho bom de verdade, aproveite!</p>
-     
-    </section> 
-    <h3 class="produto">Nosso Produto </h3>
-    <h3 class="imagem"><img src="../imgs/vinho.jpg" alt="vinho" width="1000"></h3>
-  </main>
+    <label>
+      <input type="checkbox"> Estou ciente da análise desta mensagem
+    </label><br><br>
 
-
-
+    <button id="botao">Enviar</button>
+    
+  </section>
+  </form>
+   
+   <footer>
+        <p>&copy; 2026 Vinharia Agnello</p>
+    </footer>
+  
 
 </body>
 </html>
+
